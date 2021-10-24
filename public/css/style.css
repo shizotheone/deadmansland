@@ -1,0 +1,247 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@font-face {
+    font-family: "Homemade Apple";
+    src: url('../fonts/HomemadeApple-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Velasco-Deco";
+    src: url('../fonts/Velasco-Deco.otf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "HapnaSlabSerif";
+    src: url('../fonts/HapnaSlapSerif.ttf');
+}
+@font-face {
+    font-family: "RDRLino";
+    src: url('../fonts/RDRLino.ttf');
+}
+
+body{
+    background-color: #151515;
+    font-family: "HapnaSlabSerif";
+}
+.container-font{
+    color: #e0e0e0;
+}
+nav ul a,
+nav .brand-logo {
+  color: #e0e0e0;
+}
+
+nav{
+    height:90px;
+    line-height: 90px;
+}
+
+.western-font{
+    font-family: "Velasco-Deco";
+}
+
+.text-font{
+    font-family: "HapnaSlabSerif";
+}
+
+.headline-font{
+    font-family: "RDRLino";
+}
+
+.text-shadow{
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo{
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.rules-text{
+    word-break: break-all;
+    margin:1em auto;
+    width: 800px;
+}
+
+.whitelist-header{
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: skew(-45deg);
+    background-color: red;
+    background-image: linear-gradient(#AE4C01 50%, #6A2E00);
+    height:30px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.whitelist-header-font{
+    transform: skew(+45deg);
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+.whitelist-status{
+    background-color: #B40404;
+    height: 25px;
+    width:100%;
+    color:white;
+}
+
+.card-spacer-panel{
+    width: 60%;
+    min-width: 150px;
+    height: 1px;
+    background-color: #424242;
+    margin-top: 10px;
+}
+
+.register-background{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom-color: #ef6c00;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid green;
+    -webkit-box-shadow: 0 1px 0 0 green;
+    box-shadow: 0 1px 0 0 green;
+}
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid green;
+    border-bottom: 2px solid green;
+}
+
+nav {
+    background-color: transparent;
+    box-shadow:none;
+}
+
+.DML-Fontcolor {
+    color: #1a202c !important;
+}
+
+.DML-HandFont{
+    font-family: "Homemade Apple";
+}
+.teal.lighten-1 {
+    background-color: #ef6c00 !important;
+}
+
+.teal{
+    background-color: #151515 !important;
+}
+
+.teal-footer{
+    background-image: linear-gradient(#151515, #101010);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.align-icons{
+margin-top:35px;
+}
+
+.card-side{
+    margin-bottom: 100px;
+    margin-top:100px;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.space-image{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.line2{
+    height: 2px;
+    width: 100%;
+    background-color: #61380B;
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.rules-collapsible-header{
+    background-color: transparent;
+    border: none;
+}
+.center-header{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-justify{
+    hyphens: auto;
+    text-align: justify
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
